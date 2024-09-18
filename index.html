@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form HTML</title>
+</head>
+<body>
+    <form action="contact.php" method="POST"></form>
+    <body bgcolor="creme"></body>
+        <fieldset>
+        <legend>Hasil Pertandingan</legend>
+        <p>
+            <label>Nama Lengkap:</label>
+            <input type="text" name="Nama_Lengkap" placeholder="Nama Lengkap..." required/>
+        </p>
+        <p></p>
+            <label>Nama Tim:</label>
+            <input type="text" name="Nama_Tim" placeholder="Nama Tim..." required/>
+        </p>
+        <p>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="Username..." required/>
+        </p>
+        <p>
+            <label>ID:</label>
+            <input type="text" name="ID" placeholder="ID..." required/>
+        </p>
+        <p>
+            <label>Discord Tags:</label>
+            <input type="text" name="Discord Tags" placeholder="Discord Tags..." required/>
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Email anda..." required/>
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="Untuk Akun Web..." required/>
+        </p>
+        <p>
+            <label>Jenis Lomba:</label>
+            <label><input type="radio" name="jenis_lomba" value="Mobile Legend" /> Mobile Legend</label>
+            <label><input type="radio" name="jenis_lomba" value="Valorant" /> Valorant</label>
+        </p> 
+        <p>
+            <label>Jadwal Pertandingan:</label>
+            <input type="date" name="tanggal" required/>
+        </p>
+        <p>
+            <label>Jam Pertandingan:</label>
+            <input type="time" step="1" name="jam" required/>
+        </p>
+        <p>
+            <label>Babak Pertandingan:</label>
+            <select name="Babak_Pertandingan">
+                <option value="Penyisihan"></option>
+                <option value="Penyisihan">Penyisihan</option>
+                <option value="Semi_Final">Semi Final</option>
+                <option value="Final">Final</option>
+            </select>
+        </p>
+        <p>
+            <label>Screenshot Hasil Pertandingan:</label>
+            <input type="file" step="1" name="ss" required/>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Kirim" />
+        </p>
+        
+        </fieldset>
+    </form>
+</body>
+</html>
